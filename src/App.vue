@@ -3,20 +3,12 @@
     id="app"
     class="container mx-auto"
   >
-    <HelloWorld />
+    <router-view/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
+  name: 'App'
 }
 </script>
-
-<style>
-</style>
